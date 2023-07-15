@@ -1,7 +1,7 @@
 // components/Form.tsx
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { connect, ConnectedProps } from "react-redux";
-import { addFormData, removeFormData, editFormData } from "../../redux/actions";
+import { addFormData, removeFormData, editFormData } from "../../redux/reducers";
 import { FormEntity } from "../../types";
 import { RootState } from "../../redux/store";
 import "./Form.css";

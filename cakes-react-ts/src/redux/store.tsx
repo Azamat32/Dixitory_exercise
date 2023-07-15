@@ -1,10 +1,10 @@
 // redux/store.ts
 import { configureStore } from '@reduxjs/toolkit';
-import {formReducer} from './reducers';
+import formSlice  from './reducers';
 
 const store = configureStore({
   reducer: {
-    form: formReducer,
+    form: formSlice,
   },
 });
 
