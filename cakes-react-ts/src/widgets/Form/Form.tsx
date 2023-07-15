@@ -1,4 +1,3 @@
-// components/Form.tsx
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { connect, ConnectedProps } from "react-redux";
 import { addFormData, removeFormData, editFormData } from "../../redux/reducers";
