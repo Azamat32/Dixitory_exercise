@@ -1,0 +1,10 @@
+.table {
+  border: 1px solid #fff;
+  margin-bottom: 100px;
+}
+.table_header, .table_item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border-bottom: 1px solid #fff;
+  padding-left: 20px;
+}
